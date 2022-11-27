@@ -2,9 +2,10 @@ import threading
 import time
 
 onList = [0]*30
-offList = [0]*30
-sem = threading.Semaphore(3)
+sem = threading.Semaphore(5)
 lock = threading.Lock()
+
+
 
 #########################################################
 class Motor(threading.Thread):
@@ -12,7 +13,7 @@ class Motor(threading.Thread):
         #Motor variables
         threading.Thread.__init__(self)
         self.id = id
-
+        
         self.V = 0		#armature_voltage
         self.Ra = 3		#armature_resistance
         self.La = 0.006		#armature_inductance
@@ -23,24 +24,58 @@ class Motor(threading.Thread):
         self.B = 0.0000004		# viscous_friction
         self.Kb = 0.0		#eletric_constant
         self.Wm = 0				#Speed
+        self.WmMax = 150				#Speed
         self.Tm = 0.1
+        self.Control = False
 
 ##########################################################
 
     def turnOn(self):
         
         onList[self.id] = 1
+        initTime = time.time()
         while(True):
-            if (self.Wm<150):
+
+            if (self.Wm<self.WmMax):
                 self.Wm = self.Wm + 12
-            print(f"Hello from motor: {self.id} my speed is : {self.Wm}")
-            if(offList[self.id]):
-                onList[self.id] = 0
+            print(f"Hello from motor: {self.id} my speed is : {self.Wm}") 
+            time.sleep(2)
+            if(self.Control):
+                self.setWm()
                 break
-            time.sleep(1)
+
+              
+        onList[self.id] = 0 
+        self.Control = False
         print(f"Realising sem :{self.id}")
-        sem.release()
-        time.sleep(2)
+        sem.release()     
+        time.sleep(5)   
+        
+
+
+##########################################################
+
+def setControl(self):
+    self.Control = True
+
+########################################################
+
+
+########################################################
+
+def setWm(self):
+        
+    initTime = time.time()
+
+
+    while(time.time() < initTime + 30): 
+        if (self.Wm>self.WmMax/2):
+            self.Wm = self.Wm - 8
+        print(f"Hello from motor: {self.id} my speed is : {self.Wm}") 
+
+
+           
+        
 
 
 ##########################################################
@@ -56,9 +91,11 @@ class Motor(threading.Thread):
                 if(before<0):
                     before = 0
 
+                sem.acquire()
                 if(not onList[after] and not onList[before]):
-                    sem.acquire()
                     self.turnOn()
+                else:
+                    sem.release()
 
         except:
             print(f"Error in thread:{self.id} \n after: {after} \n before:{before} ")
