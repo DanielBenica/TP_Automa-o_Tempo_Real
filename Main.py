@@ -4,11 +4,13 @@ import sys
 from Motor import *
 from Constant import *
 from Controller import *
+
+#Master list containing all motors
 motorPool = []
-controllerList = []
+controllerList =[]
+
 
 if __name__ == "__main__":
-    #Master list containing all motors
     
 
     for i in range(MAX_MOTORS):

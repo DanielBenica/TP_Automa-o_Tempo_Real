@@ -20,9 +20,9 @@ class Controller(threading.Thread):
     def run(self):
         try:
             while (True):
+                print("Hello from controller !!!")
                 for motor in controllerList:
                     motorPool[motor].setControl()
-                print("Hello from controller !!!")
                 time.sleep(2)  
         except:
             print(f"Error in thread controller \n  ")

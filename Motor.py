@@ -55,30 +55,27 @@ class Motor(threading.Thread):
 
 ##########################################################
 
-def setControl(self):
-    self.Control = True
+    def setControl(self):
+        self.Control = True
 
-########################################################
-
-
-########################################################
-
-def setWm(self):
-        
-    initTime = time.time()
+    ########################################################
 
 
-    while(time.time() < initTime + 30): 
-        if (self.Wm>self.WmMax/2):
-            self.Wm = self.Wm - 8
-        print(f"Hello from motor: {self.id} my speed is : {self.Wm}") 
+    ########################################################
+
+    def setWm(self):
+            
+        initTime = time.time()
 
 
-           
-        
+        while(time.time() < initTime + 30): 
+            if (self.Wm>self.WmMax/2):
+                self.Wm = self.Wm - 8
+            print(f"Hello from motor: {self.id} my speed is : {self.Wm}") 
 
 
-##########################################################
+
+    ##########################################################
     def run(self):
         try:
             while (True):
@@ -90,7 +87,6 @@ def setWm(self):
                     after = 29
                 if(before<0):
                     before = 0
-
                 sem.acquire()
                 if(not onList[after] and not onList[before]):
                     self.turnOn()
