@@ -7,10 +7,14 @@ from Controller import *
 
 
 def loggerThreadFunc():
-    file1 = open("log.txt", "w")
+    file1 = open("log.txt", "a")
     while(True):
         for i in range(len(motorPool)):
             file1.write(f"Motor {motorPool[i].id} speed: {motorPool[i].Wm} \n")
+        file1.write("\n ################# \n\n")
+        time.sleep(2)
+
+
     
 
 #Master list containing all motors
