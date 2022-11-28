@@ -8,7 +8,7 @@ from Controller import *
 #Master list containing all motors
 motorPool = []
 controllerList =[]
-
+reference=[0]*30
 
 if __name__ == "__main__":
     
