@@ -2,8 +2,8 @@ from socket import *
 
 
 def readMessage(msg):
-    splitMsg = msg.split()
-    motorId = splitMsg[0]
+    splitMsg = msg.split("/x/")
+    motorId = list(map(int, splitMsg[0].split()))
     voltage = splitMsg[1]
     print(f"Id do motor: {motorId} tensão de referencia: {voltage}")
 
@@ -20,5 +20,6 @@ while 1:
     while 1:
         msg = con.recv(1024)
         msg = msg.decode()
+        #print(msg)
         readMessage(msg)
 
