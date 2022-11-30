@@ -14,19 +14,19 @@ class Motor(threading.Thread):
         threading.Thread.__init__(self)
         self.id = id
         
-        self.V = 0		#armature_voltage
-        self.Ra = 3		#armature_resistance
-        self.La = 0.006		#armature_inductance
-        self.Ia = 2		#armature_current
-        self.Km = 0		# torque_nt
-        self.Tl = 0		# load_torque
-        self.Jm = 0.000006		#inertia
-        self.B = 0.0000004		# viscous_friction
-        self.Kb = 0.0		#eletric_constant
+        self.Ra = 1		    #armature_resistance
+        self.La = 0.35		#armature_inductance
+        self.Ia = 2		    #armature_current
+        self.Km = 0		    # torque_nt
+        self.Tl = 0		    # load_torque
+        self.Jm = 0.02		#inertia
+        self.B = 0.3		# viscous_friction
+        self.Kb = 0.02		#eletric_constant
         self.Wm = 0				#Speed
-        self.WmMax = 150				#Speed
+        self.Kt = 0.1
         self.Tm = 0.1
         self.Control = False
+        self.dt = 0.001         #Sampling time
 
 ##########################################################
 

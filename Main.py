@@ -47,6 +47,8 @@ if __name__ == "__main__":
     # controller.start()
     # controller.join()
     
+    #Para fork pegar pid, se for = 0 vai ser a main caso contrario vai ser o outro processos, separar cliente e servidor
+
     for i in motorPool:
         i.join()
         
