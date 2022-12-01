@@ -14,19 +14,26 @@ class Motor(threading.Thread):
         threading.Thread.__init__(self)
         self.id = id
         
-        self.Ra = 1		    #armature_resistance
-        self.La = 0.35		#armature_inductance
-        self.Ia = 2		    #armature_current
-        self.Km = 0		    # torque_nt
-        self.Tl = 0		    # load_torque
-        self.Jm = 0.02		#inertia
-        self.B = 0.3		# viscous_friction
-        self.Kb = 0.02		#eletric_constant
-        self.Wm = 0				#Speed
-        self.Kt = 0.1
-        self.Tm = 0.1
-        self.Control = False
+        self.Ra = 1		        #armature_resistance
+        self.La = 0.5		    #armature_inductance	    
+        self.Jm = 0.01		    #inertia
+        self.B = 0.3		    # viscous_friction
+        self.Kb = 0.01		    #eletric_constant
+        self.Wm = 0			    #Speed
+        self.Kt = 0.01
         self.dt = 0.001         #Sampling time
+        self.Control = False    #Flag for control
+        self.outputs = [0, 0]
+
+##########################################################
+    def update(self, v):
+        output_now = (v + (self.L * self.B * self.outputs[-1] / self.dt / self.Kt) + (self.L * self.J * (2 * self.outputs[-1] - self.outputs[-2]) / self.Kt / (self.dt ** 2))+(
+            self.R * self.J * self.outputs[-1] / self.Kt)) / ((self.L * self.B / self.dt / self.Kt) + (self.L * self.J / self.Kt / (self.dt**2))+(self.R * (self.B + self.J) / self.Kt) - self.Kb)
+        self.outputs.append(output_now)
+
+    def get_outputs(self):
+        return self.outputs[2:]
+
 
 ##########################################################
 

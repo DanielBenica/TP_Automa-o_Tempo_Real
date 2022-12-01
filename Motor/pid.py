@@ -1,5 +1,7 @@
-# PID Object class
-class PID(object):
+import threading
+
+
+class PID(threading.Thread):
     def __init__(self, Kp, Ki, Kd, dt):
         self.Kp, self.Ki, self.Kd = Kp, Ki, Kd
         self.dt = dt

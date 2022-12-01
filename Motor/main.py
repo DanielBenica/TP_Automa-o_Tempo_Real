@@ -1,7 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import threading
+import time
 from motor import Motor
 from pid import PID
+from Constant import *
 
 #step function
 def heaviside(t,stepTime,stepVal):
@@ -14,18 +17,10 @@ def heaviside(t,stepTime,stepVal):
 # reference input function
 def input_function(t):
     #rpm = np.sin(1e-2*t**2 + 1e-3*t + 1)
-    rpm = heaviside(t,10,215)
+    rpm = heaviside(t,2,215)
     return rpm
 
 
-'''Motor Parameters'''
-R = 1  # Resistance (Ohms)
-L = 0.5  # Inductance (H)
-J = 0.01  # Inertia of the Motor (kgm2)
-B = 0.1  # Friction Coefficent of the Motor
-Kb = 0.01  # Feedback constant
-Kt = 0.01  # Motor Constant
-dt = 0.001  # sampling rate
 
 '''PID Parameters'''
 Kp = 10
@@ -35,30 +30,36 @@ Kd = 2
 
 if __name__ == '__main__':
     time = []  # time
-    speed_rad = []  # reference speed
+    speed_rpm = []  # reference speed
     errors = [0]  # keep track of errors
+    dt = 0.001  # sampling rate
+    #Master list containing all motors
+    motorPool = []
+    for i in range(MAX_MOTORS):
+        motorPool.append(Motor(i))
 
-    motor = Motor(R, L, B, Kt, J, Kb, dt)  # initialize the motor
+    motor = Motor(1)  # initialize the motor
     pid = PID(Kp, Ki, Kd, dt)  # initial the PID Controller
 
-    for t in np.arange(dt, 20, dt):
+    for t in np.arange(dt, 10, dt):
         time.append(t)
         ref_rpm = input_function(t)
-        ref_rad = ref_rpm #/ 9.549297  # rpm to rad conversion
-        speed_rad.append(ref_rad)
+        speed_rpm.append(ref_rpm)
 
-        error_now = ref_rad - motor.outputs[-1]  # calculating the error
+        error_now = ref_rpm - motor.outputs[-1]  # calculating the error
         errors.append(error_now)
 
         integral, derivative, proportional = pid.calculate(errors)
         v = integral + derivative + proportional
         motor.update(v)
+        print(f"My speed is {motor.Wm} time: {t}")
 
-    plt.plot(time, speed_rad, label="Reference",
-             color='blue')
-    plt.plot(time, motor.get_outputs(), label="Output", color='red')
-    plt.xlabel('Time(s)')
-    plt.ylabel('Speed (rads-1)')
-    plt.legend()
-    plt.grid()
-    plt.show()
+    motor.plotSpeed(time,speed_rpm)
+    # plt.plot(time, speed_rpm, label="Reference",
+    #          color='blue')
+    # plt.plot(time, motor.get_outputs(), label="Output", color='red')
+    # plt.xlabel('Time(s)')
+    # plt.ylabel('Velocidade (rpm)')
+    # plt.legend()
+    # plt.grid()
+    # plt.show()

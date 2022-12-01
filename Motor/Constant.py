@@ -1,0 +1,2 @@
+MAX_MOTORS = 15
+PI = 3.141
