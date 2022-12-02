@@ -5,15 +5,16 @@ import time
 from motor import Motor
 from pid import PID
 from Constant import *
+from interface import Interface
 
 #Global variables
 '''PID Parameters'''
 Kp = 10
 Ki = 16
 Kd = 2
-#ref_rpm = 110
 
-sem = threading.Semaphore(1)
+
+sem = threading.Semaphore(3)
 
 
 #step function
@@ -38,16 +39,6 @@ def loggerThreadFunc():
         file1.write("\n ################# \n\n")
         time.sleep(2)
 
-def interfaceThreadFunc():
-    onList = []
-    #Reads the reference from user input
-    sem.acquire()
-    global ref_rpm
-    ref_rpm = float(input("Digite a referencia em RPM: "))
-    sem.release()
-    print("Turning on motors!!!")
-
-
 
 if __name__ == '__main__':
     timeSpan = []  # timeSpan
@@ -57,7 +48,11 @@ if __name__ == '__main__':
     #Master list containing all motors
     motorPool = []
 
-    
+    #Interface thread object
+    interfaceThread = Interface()
+    interfaceThread.start()
+    interfaceThread.join()
+
 
     for i in range(MAX_MOTORS):
         motorPool.append(Motor(i))
@@ -72,9 +67,6 @@ if __name__ == '__main__':
     loggerThread.start()
     #loggerThread.join()
 
-    interfaceThread = threading.Thread(target = interfaceThreadFunc)
-    interfaceThread.start()
-    interfaceThread.join()
     #motor = Motor(1)  # initialize the motor
     #pid = PID(Kp, Ki, Kd, dt)  # initial the PID Controller
 
@@ -82,11 +74,11 @@ if __name__ == '__main__':
         timeSpan.append(t)
         #ref_rpm = input_function(t)
 
-        speed_rpm.append(ref_rpm)
+        speed_rpm.append(interfaceThread.ref_rpm)
 
         sem.acquire()
         for motors in motorPool:
-            motors.calculateError(ref_rpm)
+            motors.calculateError(interfaceThread.ref_rpm)
         sem.release()
         # error_now = ref_rpm - motorPool[0].outputs[-1]  # calculating the error
         # errors[0].append(error_now)
@@ -97,6 +89,8 @@ if __name__ == '__main__':
 
     #motorPool[0].plotSpeed(timeSpan,speed_rpm)
     
-    for m in motorPool:
-        print(f"speed is {m.Wm}")
-        m.join()
+    # for m in motorPool:
+    #     print(f"speed is {m.Wm}")
+    #     m.join()
+
+    

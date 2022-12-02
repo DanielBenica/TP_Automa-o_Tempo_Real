@@ -9,6 +9,8 @@ from Constant import *
 Kp = 10
 Ki = 16
 Kd = 2
+onList = [0]*30
+semMotor = threading.Semaphore(3)
 
 class Motor(threading.Thread):
     def __init__(self,id):
@@ -23,7 +25,7 @@ class Motor(threading.Thread):
         self.Wm = 0			    #Speed
         self.Kt = 0.01
         self.dt = 0.001         #Sampling time
-        self.Control = False    #Flag for control
+        self.state = False      #Flag for state of motor
         self.outputs = [0, 0]
         self.errors = [0]         #error for controlling
         self.pid = PID(Kp, Ki, Kd, self.dt)
@@ -57,8 +59,24 @@ class Motor(threading.Thread):
         self.update(v)
 
     def run(self):
-        # if(self.id%2==0):
-        #     self.calculateError(2200)
-        # else:
-        #     self.calculateError(0)
         time.sleep(1)
+        # try:
+        #     while (True):
+        #         after = self.id + 1
+        #         before = self.id - 1
+
+                
+        #         if (after > 29):
+        #             after = 29
+        #         if(before<0):
+        #             before = 0
+        #         semMotor.acquire()
+        #         if(not onList[after] and not onList[before]):
+        #             onList[self.id] = 1
+        #             self.state = True
+        #         else:
+        #             semMotor.release()
+
+        # except:
+        #     print(f"Error in thread:{self.id} \n after: {after} \n before:{before} ")
+    
