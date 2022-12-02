@@ -15,7 +15,7 @@ class Interface(threading.Thread):
             self.onList = [int(x) for x in self.onList.split()]
             if(self.verifyList()):
                 break
-        self.ref_rpm = float(input("Digite a referencia em RPM: "))
+        self.ref_rpm = float(input("Enter reference in RPM: "))
         print(f"Turning on motors {self.onList}!!!")
 
 

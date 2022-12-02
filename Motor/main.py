@@ -6,6 +6,7 @@ from motor import Motor
 from pid import PID
 from Constant import *
 from interface import Interface
+from logger import Logger
 
 #Global variables
 '''PID Parameters'''
@@ -31,27 +32,22 @@ def input_function(t):
     rpm = heaviside(t,2,215)
     return rpm
 
-def loggerThreadFunc():
-    file1 = open("log.txt", "a")
-    while(True):
-        for i in range(len(motorPool)):
-            file1.write(f"Motor {motorPool[i].id} speed: {motorPool[i].Wm} \n")
-        file1.write("\n ################# \n\n")
-        time.sleep(2)
-
 
 if __name__ == '__main__':
     timeSpan = []  # timeSpan
     speed_rpm = []  # reference speed
     errors = [[0]]  # keep track of errors
-    dt = 0.001  # sa220mpling rate
+    dt = 0.001  # sampling rate
     #Master list containing all motors
     motorPool = []
 
     #Interface thread object
     interfaceThread = Interface()
+    sem.acquire()
     interfaceThread.start()
+    sem.release()
     interfaceThread.join()
+    
 
 
     for i in range(MAX_MOTORS):
@@ -63,14 +59,11 @@ if __name__ == '__main__':
         m.start()
 
 
-    loggerThread = threading.Thread(target = loggerThreadFunc)
-    sem.acquire()
+    loggerThread = Logger(motorPool)
     loggerThread.start()
-    sem.release()
+  
 
     #loggerThread.join()
-    #motor = Motor(1)  # initialize the motor
-    #pid = PID(Kp, Ki, Kd, dt)  # initial the PID Controller
 
     for t in np.arange(dt, 15, dt):
         timeSpan.append(t)
@@ -82,7 +75,10 @@ if __name__ == '__main__':
         #Turns on motors in onlist
         for i in interfaceThread.onList:
             motorPool[i].calculateError(interfaceThread.ref_rpm)
-            
+        
+        #sleeps if dt is an integer
+
+
         # error_now = ref_rpm - motorPool[0].outputs[-1]  # calculating the error
         # errors[0].append(error_now)
         # integral, derivative, proportional = pid.calculate(errors[0])
@@ -90,8 +86,10 @@ if __name__ == '__main__':
         # motorPool[0].update(v)
         #print(f"My speed is {motor.Wm} time: {t}")
 
-    #motorPool[0].plotSpeed(timeSpan,speed_rpm)
-    
+
+    motorPool[0].plotSpeed(timeSpan,speed_rpm)
+
+
     for m in motorPool:
         print(f"speed is {m.Wm}")
         m.join()
