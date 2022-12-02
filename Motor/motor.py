@@ -1,7 +1,14 @@
 import threading
 import numpy as np
 import matplotlib.pyplot as plt
+import time
+from pid import PID
+from Constant import *
 
+'''PID Parameters'''
+Kp = 10
+Ki = 16
+Kd = 2
 
 class Motor(threading.Thread):
     def __init__(self,id):
@@ -18,6 +25,8 @@ class Motor(threading.Thread):
         self.dt = 0.001         #Sampling time
         self.Control = False    #Flag for control
         self.outputs = [0, 0]
+        self.errors = [0]         #error for controlling
+        self.pid = PID(Kp, Ki, Kd, self.dt)
 
     # updates the output with the pid output
     def update(self, v):
@@ -38,3 +47,18 @@ class Motor(threading.Thread):
         plt.legend()
         plt.grid()
         plt.show()  
+
+    def calculateError(self,ref_rpm):
+        error_now = ref_rpm - self.outputs[-1]  # calculating the error
+        self.errors.append(error_now)
+
+        integral, derivative, proportional = self.pid.calculate(self.errors)
+        v = integral + derivative + proportional
+        self.update(v)
+
+    def run(self):
+        # if(self.id%2==0):
+        #     self.calculateError(2200)
+        # else:
+        #     self.calculateError(0)
+        time.sleep(1)
