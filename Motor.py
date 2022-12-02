@@ -27,8 +27,10 @@ class Motor(threading.Thread):
 
 ##########################################################
     def update(self, v):
-        output_now = (v + (self.L * self.B * self.outputs[-1] / self.dt / self.Kt) + (self.L * self.J * (2 * self.outputs[-1] - self.outputs[-2]) / self.Kt / (self.dt ** 2))+(
-            self.R * self.J * self.outputs[-1] / self.Kt)) / ((self.L * self.B / self.dt / self.Kt) + (self.L * self.J / self.Kt / (self.dt**2))+(self.R * (self.B + self.J) / self.Kt) - self.Kb)
+        output_now = (v + (self.L * self.B * self.outputs[-1] / self.dt / self.Kt) + (self.L * self.J * (2 * self.outputs[-1] - 
+        self.outputs[-2]) / self.Kt / (self.dt ** 2)) + 
+        (self.R * self.J * self.outputs[-1] / self.Kt)) / ((self.L * self.B / self.dt / self.Kt) + 
+            (self.L * self.J / self.Kt / (self.dt**2))+(self.R * (self.B + self.J) / self.Kt) - self.Kb)
         self.outputs.append(output_now)
 
     def get_outputs(self):
@@ -65,10 +67,7 @@ class Motor(threading.Thread):
     def setControl(self):
         self.Control = True
 
-    ########################################################
-
-
-    ########################################################
+########################################################
 
     def setWm(self):
             
@@ -82,7 +81,7 @@ class Motor(threading.Thread):
 
 
 
-    ##########################################################
+##########################################################
     def run(self):
         try:
             while (True):
