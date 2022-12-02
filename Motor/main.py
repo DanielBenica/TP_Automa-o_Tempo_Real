@@ -14,7 +14,7 @@ Ki = 16
 Kd = 2
 
 
-sem = threading.Semaphore(3)
+sem = threading.Semaphore(1)
 
 
 #step function
@@ -64,9 +64,11 @@ if __name__ == '__main__':
 
 
     loggerThread = threading.Thread(target = loggerThreadFunc)
+    sem.acquire()
     loggerThread.start()
-    #loggerThread.join()
+    sem.release()
 
+    #loggerThread.join()
     #motor = Motor(1)  # initialize the motor
     #pid = PID(Kp, Ki, Kd, dt)  # initial the PID Controller
 
@@ -76,10 +78,11 @@ if __name__ == '__main__':
 
         speed_rpm.append(interfaceThread.ref_rpm)
 
-        sem.acquire()
-        for motors in motorPool:
-            motors.calculateError(interfaceThread.ref_rpm)
-        sem.release()
+
+        #Turns on motors in onlist
+        for i in interfaceThread.onList:
+            motorPool[i].calculateError(interfaceThread.ref_rpm)
+            
         # error_now = ref_rpm - motorPool[0].outputs[-1]  # calculating the error
         # errors[0].append(error_now)
         # integral, derivative, proportional = pid.calculate(errors[0])
@@ -89,8 +92,8 @@ if __name__ == '__main__':
 
     #motorPool[0].plotSpeed(timeSpan,speed_rpm)
     
-    # for m in motorPool:
-    #     print(f"speed is {m.Wm}")
-    #     m.join()
+    for m in motorPool:
+        print(f"speed is {m.Wm}")
+        m.join()
 
     

@@ -256,3 +256,472 @@ Motor 2 speed: 219.89549260026558
 Motor 3 speed: 219.89549260026558 
 Motor 4 speed: 219.89549260026558 
 Motor 5 speed: 219.89549260026558 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+
+ ################# 
+
+Motor 0 speed: 0 
