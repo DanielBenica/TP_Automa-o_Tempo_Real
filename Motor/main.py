@@ -9,11 +9,8 @@ from interface import Interface
 from logger import Logger
 
 #Global variables
-'''PID Parameters'''
-Kp = 10
-Ki = 16
-Kd = 2
-
+#Interface thread object
+interfaceThread = Interface()
 
 sem = threading.Semaphore(1)
 
@@ -41,8 +38,7 @@ if __name__ == '__main__':
     #Master list containing all motors
     motorPool = []
 
-    #Interface thread object
-    interfaceThread = Interface()
+
     sem.acquire()
     interfaceThread.start()
     sem.release()
@@ -65,7 +61,7 @@ if __name__ == '__main__':
 
     #loggerThread.join()
 
-    for t in np.arange(dt, 15, dt):
+    for t in np.arange(dt, 10, dt):
         timeSpan.append(t)
         #ref_rpm = input_function(t)
 
@@ -75,19 +71,27 @@ if __name__ == '__main__':
         #Turns on motors in onlist
         for i in interfaceThread.onList:
             motorPool[i].calculateError(interfaceThread.ref_rpm)
-        
-        #sleeps if dt is an integer
 
 
-        # error_now = ref_rpm - motorPool[0].outputs[-1]  # calculating the error
-        # errors[0].append(error_now)
-        # integral, derivative, proportional = pid.calculate(errors[0])
-        # v = integral + derivative + proportional
-        # motorPool[0].update(v)
-        #print(f"My speed is {motor.Wm} time: {t}")
+
+    #sets the reference speed for the interface to half of the reference speed
+    sem.acquire()
+    interfaceThread.ref_rpm = interfaceThread.ref_rpm/2
+    sem.release()
+
+    startTime = time.time()
+
+ 
+    while (timeSpan[-1] < 60):
+        timeSpan.append(timeSpan[-1]+dt)
+        speed_rpm.append(interfaceThread.ref_rpm)
+        for i in interfaceThread.onList:
+            motorPool[i].calculateError(interfaceThread.ref_rpm)
 
 
-    motorPool[0].plotSpeed(timeSpan,speed_rpm)
+
+            
+    # motorPool[0].plotSpeed(timeSpan,speed_rpm)
 
 
     for m in motorPool:

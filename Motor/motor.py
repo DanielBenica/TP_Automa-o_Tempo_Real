@@ -60,23 +60,6 @@ class Motor(threading.Thread):
 
     def run(self):
         time.sleep(1)
-        # try:
-        #     while (True):
-        #         after = self.id + 1
-        #         before = self.id - 1
-
-                
-        #         if (after > 29):
-        #             after = 29
-        #         if(before<0):
-        #             before = 0
-        #         semMotor.acquire()
-        #         if(not onList[after] and not onList[before]):
-        #             onList[self.id] = 1
-        #             self.state = True
-        #         else:
-        #             semMotor.release()
-
-        # except:
-        #     print(f"Error in thread:{self.id} \n after: {after} \n before:{before} ")
     
+    def turnOn(self):
+        self.state = True

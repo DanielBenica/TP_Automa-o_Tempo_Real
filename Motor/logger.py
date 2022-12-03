@@ -8,8 +8,10 @@ class Logger(threading.Thread):
     
     def run(self):
         file1 = open("log.txt", "a")
+        start = time.time()
         while(True):
+            file1.write(f"Time: {round(time.time() - start,1)} seconds \n")
             for i in range(len(self.motorPool)):
                 file1.write(f"Motor {self.motorPool[i].id} speed: {self.motorPool[i].Wm} \n")
             file1.write("\n ################# \n\n")
-            time.sleep(0.01)
+            time.sleep(1)
