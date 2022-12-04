@@ -29,11 +29,11 @@ port = 51511
 cli = socket(AF_INET, SOCK_STREAM)
 cli.connect((host, port))
 while 1:
-    msg = input("Digite os id separados por espaços: ")
+    msg = input("Enter the motors you want to turn on: ")
     #Verifies if the message is exit
     if msg == "exit":
         cli.send(msg.encode())
     motorId = [int(i) for i in msg.split()]
     if(verifyList(motorId)):
-        msg = msg + " /x/ " + input("Digite a referencia: ")
+        msg = msg + " /x/ " + input("Enter reference in RPM: ")
         cli.send(msg.encode())
