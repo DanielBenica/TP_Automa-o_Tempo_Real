@@ -7,6 +7,8 @@ from pid import PID
 from Constant import *
 from interface import Interface
 from logger import Logger
+from socket import *
+import os
 
 #Global variables
 #Interface thread object
@@ -14,6 +16,41 @@ interfaceThread = Interface()
 
 sem = threading.Semaphore(1)
 
+
+
+def readMessage(msg, con):
+
+    if(msg == "exit"):
+        print("Exiting...")
+        #Shutdown socket
+        con.close()
+        #kills all threads
+        os._exit(1)
+
+
+    splitMsg = msg.split("/x/")
+    motorId = list(map(int, splitMsg[0].split()))
+    voltage = splitMsg[1]
+    #Changes the reference
+    sem.acquire()
+    interfaceThread.ref_rpm = float(voltage)
+    sem.release()
+    
+def startServer():
+    host = gethostname()
+    port = 51511
+
+    print(f'HOST: {host} , PORT {port}, type "exit" to exit')
+    serv = socket(AF_INET, SOCK_STREAM)
+    serv.bind((host, port))
+    serv.listen(5)
+    while 1:
+        con, adr = serv.accept()
+        while 1:
+            msg = con.recv(1024)
+            msg = msg.decode()
+            #print(msg)
+            readMessage(msg,con)
 
 #step function
 def heaviside(t,stepTime,stepVal):
@@ -38,7 +75,10 @@ if __name__ == '__main__':
     #Master list containing all motors
     motorPool = []
 
-
+    #Creates a server thread
+    serverThread = threading.Thread(target=startServer)
+    serverThread.start()
+    
     sem.acquire()
     interfaceThread.start()
     sem.release()

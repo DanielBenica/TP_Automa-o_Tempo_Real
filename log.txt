@@ -5548,3 +5548,1271 @@ Motor 17 speed: 0
 Motor 18 speed: 0 
 Motor 19 speed: 0 
 Motor 20 speed: 0 
+Time: 0.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 189.1266269813548 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 189.1266269813548 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 189.11094119322436 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 1.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 2.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 3.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 4.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 5.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 6.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 7.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 8.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 9.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 10.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 11.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 110.00000000095459 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 110.00000000095459 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 110.00000000095459 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+Time: 0.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 214.7970854434888 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 1.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 2.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 3.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 4.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 5.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 6.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 7.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 8.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 9.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 10.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 11.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 12.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 110.00000000095459 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Time: 0.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 1.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 2.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 3.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 4.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 5.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 6.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 7.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 8.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 9.0 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 10.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 11.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
+Motor 28 speed: 0 
+Motor 29 speed: 0 
+
+ ################# 
+
+Time: 12.1 seconds 
+Motor 0 speed: 0 
+Motor 1 speed: 0 
+Motor 2 speed: 0 
+Motor 3 speed: 0 
+Motor 4 speed: 0 
+Motor 5 speed: 0 
+Motor 6 speed: 0 
+Motor 7 speed: 0 
+Motor 8 speed: 0 
+Motor 9 speed: 0 
+Motor 10 speed: 0 
+Motor 11 speed: 0 
+Motor 12 speed: 0 
+Motor 13 speed: 0 
+Motor 14 speed: 0 
+Motor 15 speed: 0 
+Motor 16 speed: 0 
+Motor 17 speed: 0 
+Motor 18 speed: 0 
+Motor 19 speed: 0 
+Motor 20 speed: 0 
+Motor 21 speed: 0 
+Motor 22 speed: 0 
+Motor 23 speed: 0 
+Motor 24 speed: 0 
+Motor 25 speed: 0 
+Motor 26 speed: 0 
+Motor 27 speed: 0 
