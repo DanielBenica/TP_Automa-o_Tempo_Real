@@ -97,11 +97,9 @@ if __name__ == '__main__':
   
     while (interfaceThread.inputReceived == False):
         pass
-    #loggerThread.join()
     
     for t in np.arange(dt, 10, dt):
         timeSpan.append(t)
-        #ref_rpm = input_function(t)
 
         speed_rpm.append(interfaceThread.ref_rpm)
         #Turns on motors in onlist
