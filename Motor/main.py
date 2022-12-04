@@ -13,10 +13,7 @@ import os
 #Global variables
 #Interface thread object
 interfaceThread = Interface()
-
 sem = threading.Semaphore(1)
-
-
 
 def readMessage(msg, con):
 
@@ -30,12 +27,17 @@ def readMessage(msg, con):
 
     splitMsg = msg.split("/x/")
     motorId = list(map(int, splitMsg[0].split()))
+    #pushback motor ids to interface
+    for i in motorId:
+        interfaceThread.onList.append(i)
     voltage = splitMsg[1]
     #Changes the reference
     sem.acquire()
     interfaceThread.ref_rpm = float(voltage)
+    interfaceThread.inputReceived = True
+    interfaceThread.controlReference = interfaceThread.ref_rpm
     sem.release()
-    
+
 def startServer():
     host = gethostname()
     port = 51511
@@ -49,7 +51,6 @@ def startServer():
         while 1:
             msg = con.recv(1024)
             msg = msg.decode()
-            #print(msg)
             readMessage(msg,con)
 
 #step function
@@ -59,7 +60,6 @@ def heaviside(t,stepTime,stepVal):
     else:
         return stepVal
 
-
 # reference input function
 def input_function(t):
     #rpm = np.sin(1e-2*t**2 + 1e-3*t + 1)
@@ -68,7 +68,7 @@ def input_function(t):
 
 
 if __name__ == '__main__':
-    timeSpan = []  # timeSpan
+    timeSpan = [0]  # timeSpan
     speed_rpm = []  # reference speed
     errors = [[0]]  # keep track of errors
     dt = 0.001  # sampling rate
@@ -79,10 +79,11 @@ if __name__ == '__main__':
     serverThread = threading.Thread(target=startServer)
     serverThread.start()
     
-    sem.acquire()
-    interfaceThread.start()
-    sem.release()
-    interfaceThread.join()
+    if interfaceThread.inputReceived == False:
+        interfaceThread.start()
+        
+        
+
     
 
 
@@ -98,44 +99,39 @@ if __name__ == '__main__':
     loggerThread = Logger(motorPool)
     loggerThread.start()
   
-
+    while (interfaceThread.inputReceived == False):
+        pass
     #loggerThread.join()
-
+    
     for t in np.arange(dt, 10, dt):
         timeSpan.append(t)
         #ref_rpm = input_function(t)
 
         speed_rpm.append(interfaceThread.ref_rpm)
-
-
         #Turns on motors in onlist
         for i in interfaceThread.onList:
             motorPool[i].calculateError(interfaceThread.ref_rpm)
 
 
-
+    time.sleep(9)
     #sets the reference speed for the interface to half of the reference speed
     sem.acquire()
-    interfaceThread.ref_rpm = interfaceThread.ref_rpm/2
+    interfaceThread.controlReference = interfaceThread.ref_rpm
     sem.release()
 
-    startTime = time.time()
 
- 
     while (timeSpan[-1] < 60):
+        sem.acquire()                
+        interfaceThread.ref_rpm = interfaceThread.controlReference/2
+        sem.release()
         timeSpan.append(timeSpan[-1]+dt)
         speed_rpm.append(interfaceThread.ref_rpm)
         for i in interfaceThread.onList:
             motorPool[i].calculateError(interfaceThread.ref_rpm)
 
+    for motor in motorPool:
+        print(f"Motor {motor.id} speed: {motor.Wm}")
 
-
-            
-    # motorPool[0].plotSpeed(timeSpan,speed_rpm)
-
-
-    for m in motorPool:
-        print(f"speed is {m.Wm}")
-        m.join()
-
+    #shutdowns all motors
+    os._exit(1)
     
