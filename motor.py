@@ -32,8 +32,12 @@ class Motor(threading.Thread):
 
     # updates the output with the pid output
     def update(self, v):
-        output_now = (v + (self.L * self.B * self.outputs[-1] / self.dt / self.Kt) + (self.L * self.J * (2 * self.outputs[-1] - self.outputs[-2]) / self.Kt / (self.dt ** 2))+(
-            self.R * self.J * self.outputs[-1] / self.Kt)) / ((self.L * self.B / self.dt / self.Kt) + (self.L * self.J / self.Kt / (self.dt**2))+(self.R * (self.B + self.J) / self.Kt) - self.Kb)
+        output_now = (v + (self.L * self.B * self.outputs[-1] / self.dt / self.Kt)
+         + (self.L * self.J * (2 * self.outputs[-1] - self.outputs[-2]) /
+          self.Kt / (self.dt ** 2))+(self.R * self.J * self.outputs[-1] /
+           self.Kt)) / ((self.L * self.B / self.dt / self.Kt) + 
+           (self.L * self.J / self.Kt / (self.dt**2))+
+           (self.R * (self.B + self.J) / self.Kt) - self.Kb)
         self.outputs.append(output_now)
         self.Wm = self.outputs[-1]
 

@@ -94,7 +94,7 @@ if __name__ == '__main__':
 
     loggerThread = Logger(motorPool)
     loggerThread.start()
-  
+    
     while (interfaceThread.inputReceived == False):
         pass
     
@@ -114,6 +114,7 @@ if __name__ == '__main__':
     sem.release()
 
     startTime = time.time()
+    print("Controlling motors!")
     while (time.time() - startTime < 60):
         sem.acquire()                
         interfaceThread.ref_rpm = interfaceThread.controlReference/2

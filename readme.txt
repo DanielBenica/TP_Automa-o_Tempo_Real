@@ -13,7 +13,11 @@ arquivo "Trabalho Final.pdf" presente na página da disciplina.
 
 Pré Requesitos
 
-Para que seja possível executar o programa no dispositivo, é necessário ter instalado alguma versão do compilador Python.
+Para que seja possível executar o programa no dispositivo, é necessário ter instalado alguma versão do compilador Python. Além dsso,
+é necessário que o dispositivo tenha duas bibliotecas instaladas: a matplotlib num.py. Essas bibliotecas podem ser instaladas usando
+o comando:
+
+pip install -r requirements.txt
 
 ########################################################################################################################################
 
@@ -32,13 +36,22 @@ https://github.com. Feito isso é necessário seguir os passos habituais para cl
 
 Execução
 
-Para conpilar o programa, é necessário entrar em sua pasta raiz e abrir o terminal. Feito isso é necessário executar o seguinte comando:
+Para compilar o programa, é necessário entrar em sua pasta raiz e abrir o terminal. Feito isso é necessário executar o seguinte comando:
 
-python_version Main.py
+python_version main.py
 
 em que se deve substituir python_version pela versão do compilador python de seu dispositivo. Exemplo:
 
-python3 Main.py
+python3 main.py
+
+Para executar o synoptco é necessário executar o seguinte comando:
+
+python3 synoptic.py
+
+Feito isso é necessário imputar no terminal os Ids dos motores separados por espaço e em seguida
+fornecer a referência de velocidade.
+
+A porta utilizada para fazer conexão é a 51511.
 
 ########################################################################################################################################
 
